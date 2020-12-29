@@ -1,0 +1,23 @@
+{
+    "short_name":"Reachability",
+    "name":"Reachability Web App.",
+    "description":"A PWA which enables you to find out service area around you, especially built to analyze results for getting information about emergency services nearby for better decision making with real-time experience.",
+    "icons":[{
+        "src":"images/isobars (256x256).png",
+        "type":"image/png",
+        "sizes":"256x256"
+    },{
+        "src":"images/isobars (128x128).png",
+        "type":"image/png",
+        "sizes":"128x128"
+    },{
+        "src":"images/isobars (64x64).png",
+        "type":"image/png",
+        "sizes":"64x64"
+    }
+],
+"start_url":"/index.html",
+"scope":".",
+"display":"standalone",
+"background_color":"#FFDAB9"
+}
