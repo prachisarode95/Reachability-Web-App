@@ -57,10 +57,10 @@ Google firebase service knows a user’s identity, allows an app to securely sav
 
 ```Steps given below will elaborate about the entire authentication process:
 
-•	**Connect your app to Firebase**
+**Connect your app to Firebase**
 #Install the Firebase SDK. Be sure to paste the configuration code into your web page as described
 
-•	**Sign Up new users**:
+**Sign Up new users**:
 #Create a form that allows new users to register with your app using their email address and a password. When a user completes the form, validate the email address and password provided by the user, then pass them to the ‘createUserWithEmailAndPassword’ method:
 
 firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
@@ -70,8 +70,7 @@ firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(e
   // ...
 });
 
-
-• **Sign In existing  users**
+**Sign In existing  users**
 #Create a form that allows existing users to sign in using their email address & password. When a user completes the form then call the ‘signInWithEmailAndPassword’ method:
 
 firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
@@ -81,7 +80,7 @@ firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error
   // ...
 });
 
-•	**Set an authentication state observer and get user data**
+**Set an authentication state observer and get user data**
 #For each of the app’s pages that need information about the signed-in user, attach an observer to the global authentication object. This observer gets called whenever the user’s sign-in state changes. 
 Attach the observer using the ‘onAuthStateChanged’ method. When a user successfully signs in, information about the user will get fetched out in the observer.
 
@@ -100,5 +99,3 @@ firebase.auth().onAuthStateChanged(function(user) {
     // ...
   }
 });```
-
-
