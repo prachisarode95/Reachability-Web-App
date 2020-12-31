@@ -51,49 +51,6 @@ The data for this project was obtained from ‘Google Earth Pro’ open source s
 **Results & Discussions**:
 The developed web application consists of various useful GIS tools for spatial data visualisation, analysis, querying and finally interaction for final results. The use of and effective database management system allows for effective storage, management and retrieval of spatial data. The adopted approach and its implementation using PostgreSQL, PostGIS, GeoServer to develop a web-based application provides public users data sharing and mapping services. It shares the information and geospatial datasets allowing users with limited knowledge to access the information customized for specific application that will reduce operation cost management and assist people in their decision- making process. The GIS and various web technologies can be efficiently combined as a mechanism to share spatial information freely, openly and easily.
 
-**Firebase Authentication**
-`1. Connect your app to Firebase
-Install the Firebase SDK. Be sure to paste the configuration code into your web page as described
-
-2. Sign Up new users
-Create a form that allows new users to register with your app using their email address and a password. When a user completes the form, validate the email address and password provided by the user, then pass them to the ‘createUserWithEmailAndPassword’ method:
-
-firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
-  // Handle Errors here.
-  var errorCode = error.code;
-  var errorMessage = error.message;
-  // ...
-});
-
-3. Sign In existing  users
-Create a form that allows existing users to sign in using their email address & password. When a user completes the form then call the ‘signInWithEmailAndPassword’ method:
-
-firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
-  // Handle Errors here.
-  var errorCode = error.code;
-  var errorMessage = error.message;
-  // ...
-});
-
-4. Set an authentication state observer and get user data
-For each of the app’s pages that need information about the signed-in user, attach an observer to the global authentication object. This observer gets called whenever the user’s sign-in state changes. Attach the observer using the ‘onAuthStateChanged’ method. When a user successfully signs in, information about the user will get fetched out in the observer.
-
-firebase.auth().onAuthStateChanged(function(user) {
-  if (user) {
-    // User is signed in.
-    var email = user.email;
-    var emailVerified = user.emailVerified;
-    var photoURL = user.photoURL;
-    var isAnonymous = user.isAnonymous;
-    var uid = user.uid;
-    var providerData = user.providerData;
-    // ...
-  } else {
-    // User is signed out.
-    // ...
-  }
-});
-
 **System Implementation**
 The research produced an online web GIS application with a hybrid architecture where, spatial functions are conducted on the client side to minimize data traffic between the web server and browser thus smooth operation without processing lag. On the server side of the system, ‘GeoServer’ which serves the application files to browsers and queries the database in response to the requests made within the web application. PostgreSQL uses a client-server model where the client and server can reside on different files, accepts connections to the database from client applications. It executes database requests from clients and sends the results back to the clients. Remote clients can connect over the network or internet to the server.
 The system architecture is shown below in figure:
