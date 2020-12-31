@@ -70,9 +70,10 @@ PostgreSQL provides and supports many client applications for database administr
 
 The research endeavoured to produce a ‘Web GIS App’ with a simple and intuitive interface that would enable first time GIS users to use the system with minimal instruction. The interface page includes ‘Title bar’ showing name of the web app which was created using ‘Navbar’, one of the Bootstrap-4 JavaScript libraries. ‘About page’ describes the basic information about the web application, added below the ‘Title bar’ and created using ‘Jumbotron’, Bootstrap-4 JavaScript library. The rest of the page includes ‘Sign-Up’ & ‘Sign-In’ forms which were created by using ‘Forms’ form Bootstrap-4 JavaScript library as well. Entire web page was built using Bootstrap-4 JavaScript Libraries. Later, this interface was connected and functioned with ‘Google Firebase Authentication’ service for user’s log in/out activities.
 
+![web app 2](https://user-images.githubusercontent.com/60979131/103412298-66ff8280-4b9a-11eb-941c-80ac0c6e5b97.jpg)
 
 The interface is a part of second web page when user will get logged in and then ‘logout’ option will start appearing on title bar. It includes a map window showing various GIS tools for user interface, also it displays location of all emergency facilities in Chennai city. Attribution tool is added in the bottom-right corner of the map window. All tools are specially built for reachability analysis only. The interface has zoom in/out buttons so that user can get all the map features with detailed information in real-time.  It has layer control that enables users to toggle layers from the display as well as ‘Geocode and ‘Search’ button. The main tool panel is appearing in left side of the map window, and has different options for user interaction with real-time experience using ‘OpenStreetMap’ (OSM) API service. The system was built in such a way that it is responsive and thus the interface maintains its display integrity and appears the same across screen sizes. Following figure shows how the system renders on a mobile device.
-'image'
+
 
 **GIS Functionalities within Web Application**
 
