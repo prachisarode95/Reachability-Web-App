@@ -74,6 +74,7 @@ The research endeavoured to produce a ‘Web GIS App’ with a simple and intuit
 
 The interface is a part of second web page when user will get logged in and then ‘logout’ option will start appearing on title bar. It includes a map window showing various GIS tools for user interface, also it displays location of all emergency facilities in Chennai city. Attribution tool is added in the bottom-right corner of the map window. All tools are specially built for reachability analysis only. The interface has zoom in/out buttons so that user can get all the map features with detailed information in real-time.  It has layer control that enables users to toggle layers from the display as well as ‘Geocode and ‘Search’ button. The main tool panel is appearing in left side of the map window, and has different options for user interaction with real-time experience using ‘OpenStreetMap’ (OSM) API service. The system was built in such a way that it is responsive and thus the interface maintains its display integrity and appears the same across screen sizes. Following figure shows how the system renders on a mobile device.
 
+![mobile](https://user-images.githubusercontent.com/60979131/103412397-e9884200-4b9a-11eb-9ee6-96b62b4ae8f6.PNG)
 
 **GIS Functionalities within Web Application**
 
