@@ -1,5 +1,4 @@
 # Reachability-Web-App
-Follow the link to check out my web application. (https://findservicearea.web.app/)
 
 **Aim**:
 To develop indigenous web-based application for real time decision planning at any location.
@@ -103,3 +102,5 @@ Reachability analysis has done using the Leaflet plugin ‘Reachability’, is o
 The web GIS development process faces new challenges such as lack of information during or before any emergency. This research has endeavoured to overcome these challenges by innovating on the conventional web GIS architecture and adding client side processing to minimise the volume of the data transferred between the browser and the web server. The research has also developed a system with an intuitive and streamlined user interface to enable non-specialist or the ones not familiar with GIS, to operate the system without any additional training. The research has managed to meet the set out goals of developing a tool for monitoring and evaluation of facilities used in emergency situations, also managed to develop for public interaction to collect, visualise and analyse spatial information.
 This web map application was built to analyse the reachability index between facility and user’s location or any incident point which can be reached within given distance and time limit in the respective web map.  The purpose behind building this application was to represent the possibility of facility or service location points to be reached to the user’s location in a less time with respect to distance.  After analysing, it is concluded that all the results with different parameters or attribute information determined the accuracy level of OSM’s API services as well as the functionality of leaflet map with multiple tool options.
 The system developed in this research is web based and will work in any browser and on any device, regardless of screen size. This will enable local facility search and geocoding service to access, use and visualise spatial data in a timely manner.
+
+Please follow the link to check out my web application. (https://findservicearea.web.app/)
