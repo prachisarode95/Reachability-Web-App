@@ -1,5 +1,6 @@
 # Reachability-Web-App
-Check out my application ![here](https://findservicearea.web.app/)
+Follow the link to check out my web application. (https://findservicearea.web.app/)
+
 **Aim**:
 To develop indigenous web-based application for real time decision planning at any location.
 
